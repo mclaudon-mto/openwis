@@ -3,7 +3,7 @@
   <parent>
     <artifactId>openwis-harness</artifactId>
     <groupId>io.openwis.harness</groupId>
-	<version>3.14.6MF1</version>
+	<version>develop-SNAPSHOT</version>
 	<relativePath>../pom.xml</relativePath>
   </parent>
   <groupId>io.openwis.harness</groupId>
@@ -15,26 +15,31 @@
 	  <dependency>
 		<groupId>org.apache.cxf</groupId>
 		<artifactId>cxf-rt-frontend-jaxws</artifactId>
+		<version>${cxf.version}</version>
 		<scope>provided</scope>
 	  </dependency>
 	  <dependency>
 		<groupId>org.apache.cxf</groupId>
 		<artifactId>cxf-rt-transports-http</artifactId>
+		<version>${cxf.version}</version>
 		<scope>provided</scope>
 	  </dependency>
 	  <dependency>
 	    <groupId>org.apache.cxf</groupId>
 		<artifactId>cxf-rt-core</artifactId>
+		<version>${cxf.version}</version>
 		<scope>provided</scope>
 	  </dependency>
 	  <dependency>
 		<groupId>org.apache.cxf</groupId>
 		<artifactId>cxf-rt-databinding-aegis</artifactId>
+		<version>${cxf.version}</version>
 		<scope>provided</scope>
 	  </dependency>
 	  <dependency>
 		<groupId>org.apache.cxf</groupId>
 		<artifactId>cxf-rt-management</artifactId>
+		<version>${cxf.version}</version>
 		<scope>provided</scope>
 	  </dependency>
 	</dependencies>
