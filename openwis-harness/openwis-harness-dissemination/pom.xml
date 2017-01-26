@@ -15,7 +15,8 @@
          <properties>
 	    <cxf.version>2.1.10</cxf.version>
 	  </properties>
-	  
+
+	<dependencies>
 	  <dependency>
 		<groupId>org.apache.cxf</groupId>
 		<artifactId>cxf-rt-frontend-jaxws</artifactId>
