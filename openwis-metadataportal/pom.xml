@@ -18,6 +18,7 @@
     resources through the web.</description>
   <url>http://geonetwork-opensource.org</url>
   
+
   <!-- =========================================================== -->
   <!--     Modules for the build in approximate dependency order   -->
   <!-- =========================================================== -->
